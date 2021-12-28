@@ -17,32 +17,35 @@
   <div class="card-body">
     <form method="post" action="">
         <div class="form-group">
-            <label>NAMA</label>
+            <label>Nama</label>
             <input type="text" name="tnim" class="form-control" placeholder="Masukan Nama Anda" required>
         </div>
         <div class="form-group">
-            <label>NIK</label>
+            <label>Nik</label>
             <input type="text" name="tnik" class="form-control" placeholder="Masukan Nik Anda" required>
         </div>
         <div class="form-group">
-            <label>UMUR</label>
+            <label>Umur</label>
             <input type="text" name="tumur" class="form-control" placeholder="Masukan Umur Anda" required>
         </div>
         <div class="form-group">
-            <label>ALAMAT</label>
+            <label>Alamat</label>
             <textarea class="form-control" name="talamat" placeholder="Masukan Alamat Anda"></textarea>
         </div>
         <div class="form-group">
-            <label>JENIS KELAMIN</label>
+            <label>Jenis Kelamin</label>
             <select class="form-control" name="tjeniskelamin">
                 <option></option>
                 <option value="Laki-laki">Laki-laki</option>
                 <option value="Perempuan">Perempuan</option>
             </select>
         <div class="form-group">
-            <label>PEKERJAAN</label>
+            <label>Pekerjaan</label>
             <input type="text" name="tpekerjaan" class="form-control" placeholder="Masukan Pekerjaan Anda" required>
         </div>
+
+        <button type="submit" style="background-color : green" class="btn btn-green" name="bsimpan">Simpan</button>
+        <button type="reset" class="btn btn-danger" name="breset">Kosong</button>
 
     </form>
   </div>
