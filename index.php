@@ -30,11 +30,18 @@
         </div>
         <div class="form-group">
             <label>ALAMAT</label>
-            <input type="text" name="talamat" class="form-control" placeholder="Masukan Alamat Anda" required>
+            <textarea class="form-control" name="talamat" placeholder="Masukan Alamat Anda"></textarea>
         </div>
         <div class="form-group">
             <label>JENIS KELAMIN</label>
-            <input type="text" name="tjeniskelamin" class="form-control" placeholder="Masukan Jenis Kelamin Anda" required>
+            <select class="form-control" name="tjeniskelamin">
+                <option></option>
+                <option value="Laki-laki">Laki-laki</option>
+                <option value="Perempuan">Perempuan</option>
+            </select>
+        <div class="form-group">
+            <label>PEKERJAAN</label>
+            <input type="text" name="tpekerjaan" class="form-control" placeholder="Masukan Pekerjaan Anda" required>
         </div>
 
     </form>
